@@ -2,7 +2,7 @@
 import sys
 
 def lcm_naive(a, b):
-    return (a * b / gcd(a, b))
+    return int((a * b / gcd(a, b)))
 
 def gcd(a, b):
     if b == 0:
