@@ -6,7 +6,7 @@ def lcm_naive(a, b):
 
 def gcd(a, b):
     if b == 0:
-        return b
+        return a
     return gcd(b, a % b)
 
 if __name__ == '__main__':
